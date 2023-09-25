@@ -27,11 +27,19 @@
       <label for="password">Password:</label><input id="passwpord" type="password" placeholder="Ex.: 123456">
     </div>
     <div>
-      <label for="phone">Phone Number:</label><input id="phone" type="number" placeholder="Ex.: 666798848">
+      <label for="phone">Phone Number:</label><input id="phone" type="tel" placeholder="Ex.: 666798848">
     </div>
     <div>
       <label for="date">Birthdate:</label><input id="birthdate" type="datetime" name="birthday" min="2000-01-01"
         placeholder="YYYY/MM/DD">
+    </div>
+    <div>
+      <label for="gender">Gender:</label><select name="gender" id="gender">
+        <option value="">Select gender</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Other">Other</option>
+      </select>
     </div>
   </form>
 </body>
